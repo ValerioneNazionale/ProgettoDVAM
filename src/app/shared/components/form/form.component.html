@@ -1,0 +1,9 @@
+<form [formGroup]="phoneForm">
+
+    <input type="text" class="form-control mb-2 " placeholder="Brand" formControlName="brand">
+    <input type="text" class="form-control mb-2" placeholder="Model" formControlName="model">
+    <input type="text" class="form-control mb-2" placeholder="Color" formControlName="color">
+    <input type="number" class="form-control mb-2" placeholder="Price" formControlName="price">
+    <button class="btn btn-danger" (click)="addEmitter()">Add</button>
+
+</form>
